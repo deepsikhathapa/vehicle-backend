@@ -191,6 +191,7 @@ SIMPLE_JWT = {
 
 # CORS configuration
 CORS_ALLOWED_ORIGINS = [
+    "https://vehiclefrontend-seven.vercel.app",
     "http://localhost:3000",  # your Next.js frontend
 ]
 
