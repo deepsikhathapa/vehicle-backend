@@ -40,7 +40,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '.railway.app',
     '.up.railway.app',
-    'vehicle-backend-production-87d4.up.railway.app/',
+    'vehicle-backend-production-87d4.up.railway.app',
 ]
 
 
