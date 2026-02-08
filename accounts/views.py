@@ -17,6 +17,7 @@ class RegisterView(generics.CreateAPIView):
 
     def perform_create(self, serializer):
         user = serializer.save()
+        print(f"User created: {user.id} - {user.username}")
 
         ActivityLog.objects.create(
             user=user,
