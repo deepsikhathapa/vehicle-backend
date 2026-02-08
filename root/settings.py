@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 import os
 import dj_database_url
-from decouple import Config, RepositoryEnv , Csv
+# from decouple import Config, RepositoryEnv , Csv
 
 
 from pathlib import Path
@@ -19,10 +19,21 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Determine which env file to use
-ENV_FILE = os.getenv('ENV_FILE', '.env.dev')
-env_path = BASE_DIR / ENV_FILE
-config = Config(RepositoryEnv(env_path))
+# Try to load .env file, but don't crash if it doesn't exist
+try:
+    from decouple import Config, RepositoryEnv, Csv
+    ENV_FILE = os.getenv('ENV_FILE', '.env.dev')
+    env_path = BASE_DIR / ENV_FILE
+
+    # Check if file exists
+    if env_path.exists():
+        config = Config(RepositoryEnv(env_path))
+    else:
+        # Fallback to environment variables
+        from decouple import config
+except:
+    # If decouple fails, use environment variables directly
+    from decouple import config
 
 
 # Quick-start development settings - unsuitable for production
@@ -53,7 +64,13 @@ config = Config(RepositoryEnv(env_path))
 # Core settings
 SECRET_KEY = config('SECRET_KEY', default='django-insecure-temporary-key-for-dev')
 DEBUG = config('DEBUG', default=False, cast=bool)
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+# ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+
+# ALLOWED_HOSTS - handle both Csv and manual parsing
+try:
+    ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+except:
+    ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
 
 # Application definition
 
@@ -215,8 +232,19 @@ SIMPLE_JWT = {
 #     "http://localhost:3000",  # your Next.js frontend
 # ]
 
-# CORS settings (if using CORS)
-CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS', cast=Csv())
+# CORS settings
+try:
+    CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS', cast=Csv())
+except:
+    CORS_ALLOWED_ORIGINS = os.getenv('CORS_ALLOWED_ORIGINS', '').split(',')
 
 # Optional: if using cookies/auth
 CORS_ALLOW_CREDENTIALS = True
+
+# Add CSRF trusted origins
+CSRF_TRUSTED_ORIGINS = [
+    'https://vehiclefrontend-seven.vercel.app',
+    'https://*.vercel.app',
+    'https://*.railway.app',
+    'https://*.up.railway.app',
+]
