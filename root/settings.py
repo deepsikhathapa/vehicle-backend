@@ -51,7 +51,7 @@ config = Config(RepositoryEnv(env_path))
 
 
 # Core settings
-SECRET_KEY = config('h7sh72b0s19sssa-5_$6!8$8o903@+wl*s$+@x4kr%e*gvwqdi', 'django-insecure-temporary-key-for-dev')
+SECRET_KEY = config('SECRET_KEY', default='django-insecure-temporary-key-for-dev')
 DEBUG = config('DEBUG', default=False, cast=bool)
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
