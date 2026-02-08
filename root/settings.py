@@ -11,12 +11,18 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 import os
 import dj_database_url
+from decouple import Config, RepositoryEnv , Csv
 
 
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Determine which env file to use
+ENV_FILE = os.getenv('ENV_FILE', '.env.dev')
+env_path = BASE_DIR / ENV_FILE
+config = Config(RepositoryEnv(env_path))
 
 
 # Quick-start development settings - unsuitable for production
@@ -27,22 +33,27 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # production
-SECRET_KEY = os.environ.get('h7sh72b0s19sssa-5_$6!8$8o903@+wl*s$+@x4kr%e*gvwqdi', 'django-insecure-temporary-key-for-dev')
-DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+# SECRET_KEY = os.environ.get('h7sh72b0s19sssa-5_$6!8$8o903@+wl*s$+@x4kr%e*gvwqdi', 'django-insecure-temporary-key-for-dev')
+# DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 
 # ALLOWED_HOSTS = []
 
-ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    '.railway.app',
-    '.up.railway.app',
-    'vehicle-backend-production-87d4.up.railway.app',
-]
+# ALLOWED_HOSTS = [
+#     'localhost',
+#     '127.0.0.1',
+#     '.railway.app',
+#     '.up.railway.app',
+#     'vehicle-backend-production-87d4.up.railway.app',
+# ]
 
+
+# Core settings
+SECRET_KEY = config('h7sh72b0s19sssa-5_$6!8$8o903@+wl*s$+@x4kr%e*gvwqdi', 'django-insecure-temporary-key-for-dev')
+DEBUG = config('DEBUG', default=False, cast=bool)
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 # Application definition
 
@@ -106,22 +117,31 @@ WSGI_APPLICATION = 'root.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+
+# Database - SQLite
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR / config('DATABASE_NAME', default='db.sqlite3'),
     }
 }
 
 
 # production
-DATABASES = {
-    'default': dj_database_url.config(
-        default='sqlite:///db.sqlite3',
-        conn_max_age=600,
-        conn_health_checks=True,
-    )
-}
+# DATABASES = {
+#     'default': dj_database_url.config(
+#         default='sqlite:///db.sqlite3',
+#         conn_max_age=600,
+#         conn_health_checks=True,
+#     )
+# }
 
 
 # Password validation
@@ -190,10 +210,13 @@ SIMPLE_JWT = {
 # Add this at the bottom of settings.py, or near other config variables
 
 # CORS configuration
-CORS_ALLOWED_ORIGINS = [
-    "https://vehiclefrontend-seven.vercel.app",
-    "http://localhost:3000",  # your Next.js frontend
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "https://vehiclefrontend-seven.vercel.app",
+#     "http://localhost:3000",  # your Next.js frontend
+# ]
+
+# CORS settings (if using CORS)
+CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS', cast=Csv())
 
 # Optional: if using cookies/auth
 CORS_ALLOW_CREDENTIALS = True
