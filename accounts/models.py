@@ -6,8 +6,8 @@ from django.utils import timezone
 
 class User(AbstractUser):
 
-    CUSTOMER = 'customer'
-    VENDOR = 'vendor'
+    CUSTOMER = 'CUSTOMER'
+    VENDOR = 'VENDOR'
 
     ROLE_CHOICES = (
         ('VENDOR', 'Vendor'),
