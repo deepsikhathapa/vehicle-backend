@@ -75,6 +75,7 @@ except:
 # Application definition
 
 INSTALLED_APPS = [
+    'daphne',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -89,9 +90,13 @@ INSTALLED_APPS = [
     'dashboard',
     'activitylog',
     'notifications',
+    'conversation',
 
 
     'corsheaders',
+    'cloudinary_storage',
+    'cloudinary', 
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -124,6 +129,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'root.wsgi.application'
+ASGI_APPLICATION = 'root.asgi.application'
+
 
 
 # Database
@@ -202,20 +209,47 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 
+# CLOUDINARY_STORAGE = {
+#     'CLOUD_NAME': os.environ.get('CLOUDINARY_CLOUD_NAME'),
+#     'API_KEY': os.environ.get('CLOUDINARY_API_KEY'),
+#     'API_SECRET': os.environ.get('CLOUDINARY_API_SECRET')
+# } 
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
 AUTH_USER_MODEL = 'accounts.User'
 
+
+# from datetime import timedelta
+
+# REST_FRAMEWORK = {
+#     'DEFAULT_AUTHENTICATION_CLASSES': (
+#         'rest_framework_simplejwt.authentication.JWTAuthentication',
+#     ),
+# }
+
+# SIMPLE_JWT = {
+#     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
+#     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
+# }
 
 from datetime import timedelta
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
+    'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework_simplejwt.authentication.JWTAuthentication',
-    ),
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ],
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 50,
 }
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
+
 }
 
 
@@ -229,14 +263,14 @@ SIMPLE_JWT = {
 
 
 # CORS Configuration - Add this section
-CORS_ALLOW_ALL_ORIGINS = False  # Don't allow all in production
+CORS_ALLOW_ALL_ORIGINS = DEBUG  # Allow all in development for easier debugging
 
 
 # CORS settings
 try:
     CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS', cast=Csv())
 except:
-    cors_origins = os.getenv('CORS_ALLOWED_ORIGINS', 'https://vehiclefrontend-seven.vercel.app')
+    cors_origins = os.getenv('CORS_ALLOWED_ORIGINS', 'https://vehiclefrontend-seven.vercel.app,http://localhost:3000,http://127.0.0.1:3000')
     CORS_ALLOWED_ORIGINS = [origin.strip() for origin in cors_origins.split(',')]
 
 # Optional: if using cookies/auth
@@ -270,4 +304,16 @@ CSRF_TRUSTED_ORIGINS = [
     'https://*.vercel.app',
     'https://*.railway.app',
     'https://*.up.railway.app',
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
 ]
+
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('127.0.0.1', 6379)],
+        },
+    },
+}

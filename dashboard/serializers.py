@@ -18,7 +18,7 @@ class VendorDashboardSerializer(serializers.Serializer):
 
 
 
-class CostumerDashboardSerializer(serializers.Serializer):
+class CustomerDashboardSerializer(serializers.Serializer):
     total_bookings = serializers.IntegerField()
     active_bookings = serializers.IntegerField()
     cancelled_bookings = serializers.IntegerField()

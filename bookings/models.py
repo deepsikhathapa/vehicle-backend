@@ -13,7 +13,7 @@ class Booking(models.Model):
         ('COMPLETED', 'Completed'),
     )
 
-    costumer = models.ForeignKey(
+    customer = models.ForeignKey(
         User,
         on_delete=models.CASCADE,
         related_name='bookings'
@@ -41,7 +41,7 @@ class Booking(models.Model):
         ordering = ['-created_at']
 
     def __str__(self):
-        return f'{self.costumer.username} -> {self.vehicle.name}'
+        return f'{self.customer.username} -> {self.vehicle.name}'
     
 
 

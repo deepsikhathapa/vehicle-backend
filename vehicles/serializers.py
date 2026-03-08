@@ -1,17 +1,20 @@
 from rest_framework import serializers
 from .models import Vehicle
 from datetime import date
+from accounts.serializers import UserSerializer
 
 
 class VehicleSerializer(serializers.ModelSerializer):
 
     owner = serializers.ReadOnlyField(source='owner.username')
+    vendor = UserSerializer(source='owner', read_only=True)
 
     class Meta:
         model = Vehicle
         fields = [
             'id',
             'owner',
+            'vendor',
             'name',
             'price_per_day',
             'is_available',

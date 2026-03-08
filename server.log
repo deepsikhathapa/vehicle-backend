@@ -1,0 +1,1720 @@
+Watching for file changes with StatReloader
+HTTP GET /api/notifications/unread-count/ 200 [0.04, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.05, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:57984]
+HTTP GET /api/accounts/me/ 200 [0.08, 127.0.0.1:57992]
+HTTP GET /api/conversation/conversations/ 200 [0.10, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.04, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:57984]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:59426]
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 08, 2026 - 05:41:24
+Django version 6.0.1, using settings 'root.settings'
+Starting ASGI/Daphne version 4.2.1 development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+DEBUG: JWTAuthMiddleware - Token found. User: User
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:59426]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:59428]
+DEBUG: JWTAuthMiddleware - Token found. User: User
+WebSocket CONNECT /ws/chat/1/ [127.0.0.1:59428]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.04, 127.0.0.1:57984]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.04, 127.0.0.1:57984]
+HTTP POST /api/conversation/conversations/1/mark_as_read/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:58520]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:58516]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:58520]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:58516]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:58520]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:58516]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:58520]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:58516]
+HTTP GET /api/accounts/me/ 200 [0.08, 127.0.0.1:57992]
+HTTP GET /api/conversation/conversations/ 200 [0.10, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57992]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:51998]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:51998]
+DEBUG: JWTAuthMiddleware - Token found. User: User
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:52008]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.06, 127.0.0.1:57992]
+DEBUG: JWTAuthMiddleware - Token found. User: User
+WebSocket CONNECT /ws/chat/1/ [127.0.0.1:52008]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.05, 127.0.0.1:57992]
+HTTP POST /api/conversation/conversations/1/mark_as_read/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:58520]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:58516]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.04, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.06, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:57992]
+HTTP GET /api/accounts/me/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/conversation/conversations/ 200 [0.06, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.04, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:58520]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:58516]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57992]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:60978]
+DEBUG: JWTAuthMiddleware - Token found. User: User
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:60978]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:60986]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.02, 127.0.0.1:57992]
+DEBUG: JWTAuthMiddleware - Token found. User: User
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.04, 127.0.0.1:57992]
+WebSocket CONNECT /ws/chat/1/ [127.0.0.1:60986]
+HTTP POST /api/conversation/conversations/1/mark_as_read/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57992]
+DEBUG: save_message - User: User (ID: 1)
+DEBUG: save_message - Conversation found: conversation: User - vendor
+DEBUG: save_message - Message saved: 2
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:58520]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:58516]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:57992]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:60986]
+HTTP GET /api/accounts/me/ 200 [0.05, 127.0.0.1:57984]
+HTTP GET /api/conversation/conversations/ 200 [0.07, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.05, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.06, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:58520]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:58516]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:57992]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:35910]
+DEBUG: JWTAuthMiddleware - Token found. User: User
+WebSocket CONNECT /ws/chat/1/ [127.0.0.1:35910]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:35910]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:35918]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.03, 127.0.0.1:57992]
+DEBUG: JWTAuthMiddleware - Token found. User: User
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.04, 127.0.0.1:57992]
+WebSocket CONNECT /ws/chat/1/ [127.0.0.1:35918]
+HTTP POST /api/conversation/conversations/1/mark_as_read/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:57984]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:57992]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:57992]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:57984]
+/home/ubuntu/Desktop/Root/vehicle/backend/conversation/middleware.py changed, reloading.
+Watching for file changes with StatReloader
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:56344]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:56336]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/accounts/me/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/conversation/conversations/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:56346]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:56346]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:56360]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.08, 127.0.0.1:47310]
+WebSocket CONNECT /ws/chat/1/ [127.0.0.1:56360]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.03, 127.0.0.1:47310]
+HTTP POST /api/conversation/conversations/1/mark_as_read/ 200 [0.01, 127.0.0.1:47310]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:56360]
+HTTP GET /api/accounts/me/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/conversation/conversations/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/accounts/me/ 200 [0.05, 127.0.0.1:56344]
+HTTP GET /api/conversation/conversations/ 200 [0.06, 127.0.0.1:56336]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:56344]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:56336]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:43160]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:43160]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:43164]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.06, 127.0.0.1:56336]
+WebSocket CONNECT /ws/chat/1/ [127.0.0.1:43164]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.05, 127.0.0.1:56336]
+HTTP POST /api/conversation/conversations/1/mark_as_read/ 200 [0.03, 127.0.0.1:56336]
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 08, 2026 - 05:45:33
+Django version 6.0.1, using settings 'root.settings'
+Starting ASGI/Daphne version 4.2.1 development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+DEBUG: save_message - User: vendor (ID: 14)
+DEBUG: save_message - Conversation found: conversation: User - vendor
+DEBUG: save_message - Message saved: 3
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:43164]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:39914]
+Unauthorized: /api/conversation/conversations/1/messages/
+HTTP GET /api/conversation/conversations/1/messages/?page=1 401 [0.02, 127.0.0.1:39924]
+WebSocket REJECT /ws/chat/1/ [127.0.0.1:39914]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:39914]
+Exception inside application: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7c01142acc50>.
+Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/contrib/auth/models.py", line 549, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/middleware.py", line 33, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 74, in dispatch
+    await handler(message)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/generic/websocket.py", line 250, in websocket_disconnect
+    await self.disconnect(message["code"])
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/consumers.py", line 44, in disconnect
+    await self.update_typing_status(False)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 504, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 559, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/consumers.py", line 234, in update_typing_status
+    except Conversation.DoesNotExist:
+                             ^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 987, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 625, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1671, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1703, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1613, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1440, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/related_lookups.py", line 113, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7c01142acc50>.
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP POST /api/accounts/signin/ 200 [0.90, 127.0.0.1:39924]
+HTTP GET /api/accounts/me/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/dashboard/vendor/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/dashboard/vendor/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/conversation/conversations/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/conversation/conversations/ 200 [0.04, 127.0.0.1:39924]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:51618]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:51618]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:51622]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.07, 127.0.0.1:39924]
+WebSocket CONNECT /ws/chat/1/ [127.0.0.1:51622]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.08, 127.0.0.1:39924]
+HTTP POST /api/conversation/conversations/1/mark_as_read/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:51622]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:51180]
+Unauthorized: /api/conversation/conversations/1/messages/
+HTTP GET /api/conversation/conversations/1/messages/?page=1 401 [0.02, 127.0.0.1:39924]
+WebSocket REJECT /ws/chat/1/ [127.0.0.1:51180]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:51180]
+Exception inside application: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7c0114327ef0>.
+Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/contrib/auth/models.py", line 549, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/middleware.py", line 33, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 74, in dispatch
+    await handler(message)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/generic/websocket.py", line 250, in websocket_disconnect
+    await self.disconnect(message["code"])
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/consumers.py", line 44, in disconnect
+    await self.update_typing_status(False)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 504, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 559, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/consumers.py", line 234, in update_typing_status
+    except Conversation.DoesNotExist:
+                             ^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 987, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 625, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1671, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1703, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1613, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1440, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/related_lookups.py", line 113, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7c0114327ef0>.
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.04, 127.0.0.1:47310]
+HTTP POST /api/accounts/signin/ 200 [0.97, 127.0.0.1:39924]
+HTTP GET /api/accounts/me/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:39924]
+HTTP GET /api/dashboard/customer/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/dashboard/customer/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/bookings/my/ 200 [0.05, 127.0.0.1:39924]
+HTTP GET /api/bookings/my/ 200 [0.04, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/vehicles/ 200 [0.04, 127.0.0.1:51612]
+HTTP GET /api/vehicles/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP OPTIONS /api/vehicles/21/ 200 [0.00, 127.0.0.1:39924]
+HTTP OPTIONS /api/vehicles/21/ 200 [0.00, 127.0.0.1:51612]
+HTTP GET /api/vehicles/21/ 200 [0.01, 127.0.0.1:51612]
+HTTP GET /api/vehicles/21/ 200 [0.01, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP POST /api/vehicles/fare-estimate/ 200 [0.02, 127.0.0.1:51612]
+HTTP OPTIONS /api/bookings/create/ 200 [0.00, 127.0.0.1:51612]
+Bad Request: /api/bookings/create/
+HTTP POST /api/bookings/create/ 400 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP POST /api/vehicles/fare-estimate/ 200 [0.02, 127.0.0.1:51612]
+HTTP POST /api/bookings/create/ 201 [0.05, 127.0.0.1:51612]
+HTTP GET /api/bookings/my/ 200 [0.05, 127.0.0.1:51612]
+HTTP GET /api/bookings/my/ 200 [0.05, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.16, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.17, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP POST /api/accounts/signin/ 200 [0.95, 127.0.0.1:39924]
+HTTP GET /api/accounts/me/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/dashboard/vendor/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/dashboard/vendor/ 200 [0.02, 127.0.0.1:39924]
+HTTP POST /api/notifications/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP POST /api/accounts/signin/ 200 [0.90, 127.0.0.1:39924]
+HTTP GET /api/accounts/me/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/dashboard/customer/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/dashboard/customer/ 200 [0.02, 127.0.0.1:39924]
+HTTP POST /api/notifications/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/conversation/conversations/ 200 [0.04, 127.0.0.1:39924]
+HTTP GET /api/conversation/conversations/ 200 [0.04, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:56018]
+WebSocket CONNECT /ws/chat/1/ [127.0.0.1:56018]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.06, 127.0.0.1:39924]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.06, 127.0.0.1:39924]
+HTTP POST /api/conversation/conversations/1/mark_as_read/ 200 [0.02, 127.0.0.1:39924]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:56018]
+HTTP GET /api/bookings/my/ 200 [0.05, 127.0.0.1:39924]
+HTTP GET /api/bookings/my/ 200 [0.05, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/conversation/conversations/ 200 [0.04, 127.0.0.1:51612]
+HTTP GET /api/conversation/conversations/ 200 [0.04, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:41010]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:41010]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:41022]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.06, 127.0.0.1:51612]
+WebSocket CONNECT /ws/chat/1/ [127.0.0.1:41022]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.08, 127.0.0.1:51612]
+HTTP POST /api/conversation/conversations/1/mark_as_read/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:51612]
+DEBUG: save_message - User: User (ID: 1)
+DEBUG: save_message - Conversation found: conversation: User - vendor
+DEBUG: save_message - Message saved: 4
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:41022]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:44380]
+Unauthorized: /api/conversation/conversations/1/messages/
+HTTP GET /api/conversation/conversations/1/messages/?page=1 401 [0.02, 127.0.0.1:51612]
+WebSocket REJECT /ws/chat/1/ [127.0.0.1:44380]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:44380]
+Exception inside application: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7c01142410a0>.
+Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/contrib/auth/models.py", line 549, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/middleware.py", line 33, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 74, in dispatch
+    await handler(message)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/generic/websocket.py", line 250, in websocket_disconnect
+    await self.disconnect(message["code"])
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/consumers.py", line 44, in disconnect
+    await self.update_typing_status(False)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 504, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 559, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/consumers.py", line 234, in update_typing_status
+    except Conversation.DoesNotExist:
+                             ^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 987, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 625, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1671, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1703, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1613, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1440, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/related_lookups.py", line 113, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7c01142410a0>.
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP POST /api/accounts/signin/ 200 [0.91, 127.0.0.1:51612]
+HTTP GET /api/accounts/me/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/dashboard/vendor/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/dashboard/vendor/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/conversation/conversations/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/conversation/conversations/ 200 [0.04, 127.0.0.1:51612]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:49856]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:49856]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:49868]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.07, 127.0.0.1:51612]
+WebSocket CONNECT /ws/chat/1/ [127.0.0.1:49868]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.06, 127.0.0.1:51612]
+HTTP POST /api/conversation/conversations/1/mark_as_read/ 200 [0.05, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+DEBUG: save_message - User: vendor (ID: 14)
+DEBUG: save_message - Conversation found: conversation: User - vendor
+DEBUG: save_message - Message saved: 5
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:49868]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:49878]
+Unauthorized: /api/conversation/conversations/1/messages/
+HTTP GET /api/conversation/conversations/1/messages/?page=1 401 [0.02, 127.0.0.1:51612]
+WebSocket REJECT /ws/chat/1/ [127.0.0.1:49878]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:49878]
+Exception inside application: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7c01142bc530>.
+Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/contrib/auth/models.py", line 549, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/middleware.py", line 33, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 74, in dispatch
+    await handler(message)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/generic/websocket.py", line 250, in websocket_disconnect
+    await self.disconnect(message["code"])
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/consumers.py", line 44, in disconnect
+    await self.update_typing_status(False)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 504, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 559, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/consumers.py", line 234, in update_typing_status
+    except Conversation.DoesNotExist:
+                             ^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 987, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 625, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1671, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1703, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1613, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1440, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/related_lookups.py", line 113, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7c01142bc530>.
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP POST /api/accounts/signin/ 200 [0.91, 127.0.0.1:51612]
+HTTP GET /api/accounts/me/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:51612]
+HTTP GET /api/dashboard/customer/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/dashboard/customer/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/conversation/conversations/ 200 [0.04, 127.0.0.1:51612]
+HTTP GET /api/conversation/conversations/ 200 [0.04, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:41878]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:41878]
+WebSocket HANDSHAKING /ws/chat/1/ [127.0.0.1:41888]
+WebSocket CONNECT /ws/chat/1/ [127.0.0.1:41888]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.08, 127.0.0.1:51612]
+HTTP GET /api/conversation/conversations/1/messages/?page=1 200 [0.08, 127.0.0.1:51612]
+HTTP POST /api/conversation/conversations/1/mark_as_read/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+WebSocket DISCONNECT /ws/chat/1/ [127.0.0.1:41888]
+HTTP GET /api/bookings/my/ 200 [0.05, 127.0.0.1:51612]
+HTTP GET /api/bookings/my/ 200 [0.04, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP OPTIONS /api/bookings/cancel/40/ 200 [0.00, 127.0.0.1:39924]
+HTTP PATCH /api/bookings/cancel/40/ 200 [0.04, 127.0.0.1:39924]
+HTTP GET /api/bookings/my/ 200 [0.05, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+Unauthorized: /api/accounts/signin/
+HTTP POST /api/accounts/signin/ 401 [0.97, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP POST /api/accounts/signin/ 200 [0.88, 127.0.0.1:39924]
+HTTP GET /api/accounts/me/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/dashboard/customer/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/dashboard/customer/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/bookings/my/ 200 [0.04, 127.0.0.1:39924]
+HTTP GET /api/bookings/my/ 200 [0.04, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP POST /api/accounts/signin/ 200 [0.87, 127.0.0.1:51612]
+HTTP GET /api/accounts/me/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/dashboard/vendor/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/dashboard/vendor/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP POST /api/notifications/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP POST /api/accounts/signin/ 200 [0.99, 127.0.0.1:51612]
+HTTP GET /api/accounts/me/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:51612]
+HTTP GET /api/dashboard/customer/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/dashboard/customer/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/bookings/my/ 200 [0.05, 127.0.0.1:51612]
+HTTP GET /api/bookings/my/ 200 [0.05, 127.0.0.1:39924]
+HTTP GET /api/vehicles/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/vehicles/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP OPTIONS /api/vehicles/18/ 200 [0.01, 127.0.0.1:39924]
+HTTP OPTIONS /api/vehicles/18/ 200 [0.01, 127.0.0.1:51612]
+HTTP GET /api/vehicles/18/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/vehicles/18/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP POST /api/vehicles/fare-estimate/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP POST /api/bookings/create/ 201 [0.05, 127.0.0.1:39924]
+HTTP GET /api/bookings/my/ 200 [0.06, 127.0.0.1:39924]
+HTTP GET /api/bookings/my/ 200 [0.05, 127.0.0.1:51612]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.04, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP OPTIONS /api/accounts/register/ 200 [0.00, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP POST /api/accounts/register/ 201 [1.04, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP POST /api/accounts/signin/ 200 [0.98, 127.0.0.1:51612]
+HTTP GET /api/accounts/me/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/dashboard/customer/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/dashboard/customer/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/bookings/my/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/bookings/my/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/vehicles/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/vehicles/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/vehicles/18/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/vehicles/18/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP POST /api/vehicles/fare-estimate/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+Bad Request: /api/bookings/create/
+HTTP POST /api/bookings/create/ 400 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP POST /api/conversation/conversations/ 201 [0.04, 127.0.0.1:51612]
+WebSocket HANDSHAKING /ws/chat/2/ [127.0.0.1:37118]
+WebSocket DISCONNECT /ws/chat/2/ [127.0.0.1:37118]
+HTTP OPTIONS /api/conversation/conversations/2/messages/?page=1 200 [0.01, 127.0.0.1:51612]
+HTTP OPTIONS /api/conversation/conversations/2/messages/?page=1 200 [0.01, 127.0.0.1:39924]
+WebSocket HANDSHAKING /ws/chat/2/ [127.0.0.1:37132]
+HTTP GET /api/conversation/conversations/2/messages/?page=1 200 [0.05, 127.0.0.1:51612]
+WebSocket CONNECT /ws/chat/2/ [127.0.0.1:37132]
+HTTP GET /api/notifications/unread-count/ 200 [0.07, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.08, 127.0.0.1:47310]
+HTTP GET /api/conversation/conversations/2/messages/?page=1 200 [0.06, 127.0.0.1:51612]
+HTTP OPTIONS /api/conversation/conversations/2/mark_as_read/ 200 [0.00, 127.0.0.1:51612]
+HTTP POST /api/conversation/conversations/2/mark_as_read/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+User created: 32 - test
+DEBUG: save_message - User: test (ID: 32)
+DEBUG: save_message - Conversation found: conversation: test - vendor
+DEBUG: save_message - Message saved: 6
+WebSocket DISCONNECT /ws/chat/2/ [127.0.0.1:37132]
+WebSocket HANDSHAKING /ws/chat/2/ [127.0.0.1:50426]
+Unauthorized: /api/conversation/conversations/2/messages/
+HTTP GET /api/conversation/conversations/2/messages/?page=1 401 [0.02, 127.0.0.1:51612]
+WebSocket REJECT /ws/chat/2/ [127.0.0.1:50426]
+WebSocket DISCONNECT /ws/chat/2/ [127.0.0.1:50426]
+Exception inside application: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7c010ef2fa10>.
+Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/contrib/auth/models.py", line 549, in __int__
+    raise TypeError(
+TypeError: Cannot cast AnonymousUser to int. Are you trying to use it in place of User?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/contrib/staticfiles/handlers.py", line 101, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/routing.py", line 48, in __call__
+    return await application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/security/websocket.py", line 37, in __call__
+    return await self.application(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/middleware.py", line 33, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/sessions.py", line 44, in __call__
+    return await self.inner(dict(scope, cookies=cookies), receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/sessions.py", line 261, in __call__
+    return await self.inner(wrapper.scope, receive, wrapper.send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/auth.py", line 185, in __call__
+    return await super().__call__(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/middleware.py", line 24, in __call__
+    return await self.inner(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/routing.py", line 118, in __call__
+    return await application(
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 95, in app
+    return await consumer(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 58, in __call__
+    await await_many_dispatch(
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/utils.py", line 50, in await_many_dispatch
+    await dispatch(result)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/consumer.py", line 74, in dispatch
+    await handler(message)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/generic/websocket.py", line 250, in websocket_disconnect
+    await self.disconnect(message["code"])
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/consumers.py", line 44, in disconnect
+    await self.update_typing_status(False)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 504, in __call__
+    ret = await asyncio.shield(exec_coro)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/channels/db.py", line 13, in thread_handler
+    return super().thread_handler(loop, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/asgiref/sync.py", line 559, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/backend/conversation/consumers.py", line 234, in update_typing_status
+    except Conversation.DoesNotExist:
+                             ^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 987, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 625, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1671, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1703, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1613, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/sql/query.py", line 1440, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/related_lookups.py", line 113, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/Desktop/Root/vehicle/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <django.contrib.auth.models.AnonymousUser object at 0x7c010ef2fa10>.
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP POST /api/accounts/signin/ 200 [0.94, 127.0.0.1:51612]
+HTTP GET /api/accounts/me/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:51612]
+HTTP GET /api/dashboard/vendor/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/dashboard/vendor/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/conversation/conversations/ 200 [0.05, 127.0.0.1:51612]
+HTTP GET /api/conversation/conversations/ 200 [0.05, 127.0.0.1:51612]
+WebSocket HANDSHAKING /ws/chat/2/ [127.0.0.1:45928]
+WebSocket DISCONNECT /ws/chat/2/ [127.0.0.1:45928]
+WebSocket HANDSHAKING /ws/chat/2/ [127.0.0.1:45940]
+HTTP GET /api/conversation/conversations/2/messages/?page=1 200 [0.06, 127.0.0.1:51612]
+WebSocket CONNECT /ws/chat/2/ [127.0.0.1:45940]
+HTTP GET /api/conversation/conversations/2/messages/?page=1 200 [0.05, 127.0.0.1:51612]
+HTTP POST /api/conversation/conversations/2/mark_as_read/ 200 [0.04, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+WebSocket DISCONNECT /ws/chat/2/ [127.0.0.1:45940]
+HTTP GET /api/vehicles/vendor-vehicles/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/vehicles/vendor-vehicles/ 200 [0.01, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP POST /api/notifications/ 200 [0.02, 127.0.0.1:51612]
+HTTP GET /api/vehicles/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/vehicles/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/vehicles/vendor-vehicles/ 200 [0.04, 127.0.0.1:51612]
+HTTP GET /api/vehicles/vendor-vehicles/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:39924]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP OPTIONS /api/vehicles/add/ 200 [0.00, 127.0.0.1:51612]
+HTTP POST /api/vehicles/add/ 201 [0.03, 127.0.0.1:51612]
+HTTP GET /api/vehicles/vendor-vehicles/ 200 [0.04, 127.0.0.1:51612]
+HTTP GET /api/vehicles/vendor-vehicles/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/vehicles/ 200 [0.03, 127.0.0.1:39924]
+HTTP GET /api/vehicles/ 200 [0.03, 127.0.0.1:51612]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.03, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.03, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:47322]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:47310]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.07, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.07, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.04, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.04, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.01, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.01, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.04, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.05, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:40504]
+HTTP GET /api/notifications/unread-count/ 200 [0.02, 127.0.0.1:40502]
+HTTP GET /api/notifications/ 200 [0.02, 127.0.0.1:40504]

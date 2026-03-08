@@ -9,17 +9,17 @@ from accounts.permissions import IsAdmin, IsVendor, IsCustomer
 from accounts.models import User
 from vehicles.models import Vehicle
 from bookings.models import Booking
-from .serializers import VendorDashboardSerializer, AdminDashboardSerializer, CostumerDashboardSerializer
+from .serializers import VendorDashboardSerializer, AdminDashboardSerializer, CustomerDashboardSerializer
 
 # Create your views here.
 
-class CostumerDashboardView(APIView):
+class CustomerDashboardView(APIView):
     permission_classes = [IsAuthenticated, IsCustomer]
 
     def get(self, request):
         customer = request.user
 
-        bookings = Booking.objects.filter(costumer=customer)
+        bookings = Booking.objects.filter(customer=customer)
 
         data = {
             "total_bookings": bookings.count(),
@@ -31,7 +31,7 @@ class CostumerDashboardView(APIView):
             ).aggregate(total=models.Sum('total_price'))['total'] or 0,
         }
 
-        serializer = CostumerDashboardSerializer(data)
+        serializer = CustomerDashboardSerializer(data)
         return Response(serializer.data)
     
 
@@ -67,7 +67,7 @@ class AdminDashboardView(APIView):
     def get(self, request):
         data = {
             "total_users": User.objects.count(),
-            "total_customers": User.objects.filter(role='COSTUMER').count(),
+            "total_customers": User.objects.filter(role='CUSTOMER').count(),
             "total_vendors": User.objects.filter(role='VENDOR').count(),
             "total_bookings": Booking.objects.count(),
             "total_vehicles": Vehicle.objects.count(),
@@ -75,5 +75,6 @@ class AdminDashboardView(APIView):
 
         serializer = AdminDashboardSerializer(data)
         return Response(serializer.data)
+
 
 

@@ -17,7 +17,7 @@ class CreateBookingView(generics.CreateAPIView):
     def perform_create(self, serializer):
         user = self.request.user
 
-        if user.role != 'COSTUMER':
+        if user.role != 'CUSTOMER':
             raise PermissionDenied('Only customers can create bookings.')
 
         # vehicle = get_object_or_404(Vehicle, id=self.request.data.get('vehicle'))
@@ -40,7 +40,7 @@ class CreateBookingView(generics.CreateAPIView):
         total_price = days * vehicle.price_per_day
 
         booking = serializer.save(
-            costumer=user,
+            customer=user,
             vehicle=vehicle,
             total_price=total_price,
             status='CONFIRMED'
@@ -76,7 +76,7 @@ class MyBookingView(generics.ListAPIView):
     permission_classes = [permissions.IsAuthenticated]
 
     def get_queryset(self):
-        return Booking.objects.filter(costumer=self.request.user).select_related('vehicle', 'vehicle__owner')
+        return Booking.objects.filter(customer=self.request.user).select_related('vehicle', 'vehicle__owner')
     
 
 class CancelBookingView(generics.UpdateAPIView):
@@ -89,8 +89,8 @@ class CancelBookingView(generics.UpdateAPIView):
             return Booking.objects.all()
         if user.role == 'VENDOR':
             return Booking.objects.filter(vehicle__owner=user)
-        # Default: fall back to COSTUMER (their own bookings)
-        return Booking.objects.filter(costumer=user)
+        # Default: fall back to CUSTOMER (their own bookings)
+        return Booking.objects.filter(customer=user)
 
     def perform_update(self, serializer):
         booking = serializer.save(status='CANCELLED')
@@ -103,7 +103,7 @@ class CancelBookingView(generics.UpdateAPIView):
         )
 
         # Notify the other party about cancellation
-        if self.request.user == booking.costumer:
+        if self.request.user == booking.customer:
             # Customer cancelled -> Notify Vendor
             if booking.vehicle.owner:
                 Notification.objects.create(
@@ -115,7 +115,7 @@ class CancelBookingView(generics.UpdateAPIView):
         elif self.request.user == booking.vehicle.owner:
             # Vendor cancelled -> Notify Customer
             Notification.objects.create(
-                recipient=booking.costumer,
+                recipient=booking.customer,
                 title="Booking Cancelled by Vendor",
                 message=f"Your booking #{booking.id} for {booking.vehicle.name} was cancelled by the vendor.",
                 notification_type='ERROR'

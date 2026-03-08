@@ -3,6 +3,14 @@ from .models import User
 from django.contrib.auth import authenticate
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 
+
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User 
+        fields = ['id', 'username', 'email', 'role', 'is_online', 'last_seen']
+        read_only_fields = ['id', 'is_online', 'last_seen']
+
+
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
     def validate(self, attrs):
         data = super().validate(attrs)
@@ -14,7 +22,7 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
 class RegisterSerializer(serializers.ModelSerializer):
     password = serializers.CharField(min_length=8, write_only=True)
     role = serializers.ChoiceField(
-        choices=[('VENDOR', 'Vendor'), ('COSTUMER', 'Costumer')]
+        choices=[('VENDOR', 'Vendor'), ('CUSTOMER', 'Customer')]
     )
 
     class Meta:

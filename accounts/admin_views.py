@@ -19,7 +19,7 @@ class AdminCostumerListView(generics.ListAPIView):
 
 
     def get_queryset(self):
-        user = User.objects.filter(role='COSTUMER')
+        user = User.objects.filter(role='CUSTOMER')
         return user
     
 

@@ -4,7 +4,7 @@ from vehicles.models import Vehicle
 from datetime import date
 
 class BookingSerializer(serializers.ModelSerializer):
-    costumer = serializers.ReadOnlyField(source='costumer.username')
+    customer = serializers.ReadOnlyField(source='customer.username')
     vehicle_name = serializers.ReadOnlyField(source='vehicle.name')
     vendor_name = serializers.ReadOnlyField(source='vehicle.owner.username')
 
@@ -13,7 +13,7 @@ class BookingSerializer(serializers.ModelSerializer):
         model = Booking
         fields = [
             'id',
-            'costumer',
+            'customer',
             'vehicle', 
             'vehicle_name',
             'vendor_name',
